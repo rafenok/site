@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.header_block{
+    display: flex;
+    margin-inline: 440px;
+}
+
+.logo{   
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 20px;
+    font-size: 14px;
+}
+
+.menu a{
+   margin-inline: 20px;
+   text-decoration: none;
+   color: #ed692a;
+   font-family: Optima, sans-serif;
+   font-weight: bold;
+}
+
+#number{
+    color: black;
+}
+
+#button{
+    margin-inline: 15px;
+    background-color: #ed692a;
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.name{
+    width: 100%;
+    height: 140px;
+    background-color: #f3f4f7;
+    display: flex; 
+    align-items: center;
+}
+
+.name h1{
+    margin-inline: 450px;
+    width: 1000px;
+    font-family: Optima, sans-serif;
+    font-size: 40px;  
+    color: rgb(44, 44, 44);
+}
+
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(32, 36, 57, .1);
+    display: flex; 
+    align-items: center;
+}
+
+.navigation_block{
+    margin-inline: 450px;
+}
+
+.navigation a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #ed692a;
+    font-family: Optima, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.plus{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    gap: 60px;
+    background-color: #f3f4f7;
+}
+
+.left{
+    margin-left: 450px;
+    margin-block: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left_block{
+    width: 160px;
+    height: 120px;
+}
+
+.left p{
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+    font-family: Optima, sans-serif;
+}
+
+.right{
+    margin-right: 450px;
+    margin-block: 80px;
+}
+
+.action{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.action img{
+    width: 100%;
+}
+
+.registration{
+    width: 100%;
+    height: 600px;
+    background-color: #f3f4f7;
+    display: flex;
+}
+
+.registration_block{
+    margin-inline: 450px;
+    margin-block: 100px;
+    width: 1000px;
+    height: 370px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: #ed692a;
+    display: flex;
+}
